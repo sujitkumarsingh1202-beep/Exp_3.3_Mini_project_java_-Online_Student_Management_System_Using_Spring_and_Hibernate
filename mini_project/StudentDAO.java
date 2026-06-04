@@ -17,6 +17,6 @@ public class StudentDAO {
         session.save(student);
         session.getTransaction().commit();
         session.close();
-        System.out.println("✅ Student saved successfully!");
+        System.out.println("Student saved successfully!");
     }
 }
