@@ -19,7 +19,7 @@ public class AppConfig {
         ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
         ds.setUrl("jdbc:mysql://localhost:3306/student_db");
         ds.setUsername("root");      // ← change if your MySQL user is different
-        ds.setPassword("Sujit1202@");      // ← change if your MySQL password is different
+        ds.setPassword("pass");      // ← change if your MySQL password is different
         return ds;
     }
 
